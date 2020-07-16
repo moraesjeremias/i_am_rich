@@ -9,9 +9,10 @@ void main() {
           title: Text("I'm Rich"),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(
-          image: NetworkImage(
-              'https://wallpaperhd.wiki/wp-content/uploads/macbook-pro-retina-wallpaper-2880x1800-macbook-pro-retina-wallpaper-2880x1800-macbook-pro-retina-wallpaper-2880x1800-firewatch-4k-17-2880x1800.jpg'),
+        body: Center(
+          child: Image(
+            image: AssetImage('assets/diamond.png'),
+          ),
         ),
       ),
     ),
